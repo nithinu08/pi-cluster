@@ -17,6 +17,9 @@ spec:
           image: nithinu08/nithinhomepage-backend:latest
           ports:
             - containerPort: 8080
+          env:
+            - name: OTEL_EXPORTER_ENDPOINT
+              value: "signoz-otel-collector.signoz.svc.cluster.local:4317"
           resources:
             requests:
               cpu: "50m"
