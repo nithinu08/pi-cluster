@@ -12,7 +12,7 @@ spec:
         spec:
           containers:
             - name: renovate
-              image: renovate/renovate:latest
+              image: renovate/renovate:latest@sha256:92e5d715b001c1a75e26f27a34086584f9ca51f0480b2401b3cdda44c05ad3e0
               args:
                 - nithinu08/pi-cluster
 

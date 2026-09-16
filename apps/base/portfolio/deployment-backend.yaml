@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: portfolio-backend
-          image: nithinu08/nithinhomepage-backend:latest
+          image: nithinu08/nithinhomepage-backend:latest@sha256:901a5ac0d87f1d3540bf16fbe4d18e13b9d1053d4405f3c2717768ff3d3ed3c0
           ports:
             - containerPort: 8080
           env:
