@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: portfolio-frontend
-          image: nithinu08/nithinhomepage-frontend:latest@sha256:04a3c4e04654bdab2dab738fa3be7f7b38ee4e5bafdd6a85c2c895f046d93b20
+          image: nithinu08/nithinhomepage-frontend:latest@sha256:0274295384ce0c37f20e0b90defa5eb2311077addd8fd934fbbe38a58ea5d46b
           ports:
             - containerPort: 80
           resources:
